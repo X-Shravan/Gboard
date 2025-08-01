@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button generateButton;
     private TextView replyText;
 
-    private final String API_KEY = "AIzaSyBfGBCk3RUqYzU7sgvyhCm4Vc7wbmYYRQE";
+    private final String API_KEY = "your api key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
