@@ -40,11 +40,11 @@ Just open your keyboard, type or tap to ask, and watch it respond!
 
 ---
 
-## 📸 Screenshots
+## 📸 Testing video 
 
 | Ask Any Question | AI Reply in Any App |
-|------------------|---------------------|
-| ![ask](screenshots/ask_question.png) | ![reply](screenshots/ai_response.png) |
+|------------------|---------------------|[
+(https://drive.google.com/file/d/1TUENevge6phlxwMOakCGBYetn5YyjSsH/view?usp=drivesdk)
 
 ---
 
