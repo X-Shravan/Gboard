@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <Spinner
+        android:id="@+id/modeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1f1f1f"
+        android:popupBackground="#333"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paste latest message..."
+        android:backgroundTint="#bb86fc"
+        android:textColorHint="#888"
+        android:textColor="#fff"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Reply"
+        android:backgroundTint="#bb86fc"
+        android:textColor="#000"
+        android:layout_marginTop="16dp" />
+
+    <!-- ✅ Scrollable Reply TextView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/replyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Reply appears here)"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:padding="8dp" />
+    </ScrollView>
+</LinearLayout>

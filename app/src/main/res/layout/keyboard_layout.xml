@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#1f1f1f"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/geminiInput"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Type prompt"
+        android:textColor="#ffffff"
+        android:backgroundTint="#555" />
+
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask"
+        android:backgroundTint="#bb86fc"
+        android:textColor="#000000" />
+</LinearLayout>
